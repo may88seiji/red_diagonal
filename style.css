@@ -1,0 +1,37 @@
+@charset "UTF-8"; 
+
+html,body,main{
+    height: 100%;
+    font-size: 62.5%;
+    margin: 0;
+}
+main{
+    background-color: #111111;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    position: relative;
+    /*flexboxでtext_boxを上下中央配置する*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.text_box{
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 5px;
+}
+.text_box p{
+    text-align: justify;
+    box-shadow: inset 0px 0px 15px black;
+    padding: 50px;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.diagonal{
+    position: absolute;
+    /*赤い線をborder-topで描く*/
+    border-top: solid #FF0000 1px;
+}
