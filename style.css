@@ -27,7 +27,7 @@ main{
     padding: 50px;
     margin: 0;
     max-height: 400px;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 .diagonal{
