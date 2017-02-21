@@ -10,7 +10,6 @@ main{
     font-size: 1.6rem;
     line-height: 1.6;
     position: relative;
-    overflow: hidden;
     /*flexboxでtext_boxを上下中央配置する*/
     display: flex;
     justify-content: center;
@@ -27,11 +26,11 @@ main{
     box-shadow: inset 0px 0px 15px black;
     padding: 50px;
     margin: 0;
-/*    max-height: 400px;*/
-    overflow: hidden;
+    max-height: 400px;
+    overflow-y: scroll;
 }
 
-.diagonal{
+.diagonal_line{
     position: absolute;
     /*赤い線をborder-topで描く*/
     border-top: solid #FF0000 1px;
