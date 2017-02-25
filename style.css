@@ -30,7 +30,7 @@ main{
     overflow: hidden;
 }
 
-.diagonal{
+.diagonal_line{
     position: absolute;
     /*赤い線をborder-topで描く*/
     border-top: solid #FF0000 1px;
